@@ -1,0 +1,55 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/assets/app_icon/angularX144.png",
+        "/assets/app_icon/angularX192.png",
+        "/assets/app_icon/angularX36.png",
+        "/assets/app_icon/angularX48.png",
+        "/assets/app_icon/angularX512.png",
+        "/assets/app_icon/angularX72.png",
+        "/assets/app_icon/angularX96.png",
+        "/inline.d8054acd19354ec04de0.bundle.js",
+        "/main.7ea0dbbd2137694f47cf.bundle.js",
+        "/polyfills.46af3f84a403e219371b.bundle.js",
+        "/styles.9c0ad738f18adc3d19ed.bundle.css"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-freshness",
+      "patterns": [
+        "https:\\/\\/ignatov-dmitry\\.github\\.io\\/dist\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 30000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/inline.d8054acd19354ec04de0.bundle.js": "2a243901700c501518c2189725b0b2b89f7748bc",
+    "/main.7ea0dbbd2137694f47cf.bundle.js": "335c03475a28cb21ca31437fffb159182f4f44b1",
+    "/polyfills.46af3f84a403e219371b.bundle.js": "2433a5447fd85f5a3e010ff9c5fd06cfb2c8ddcd",
+    "/styles.9c0ad738f18adc3d19ed.bundle.css": "e392ebe39e63c70b434f71bbe87278aa9aa641c0",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "1d71db2b8af61d7bf484717932361297b3547475",
+    "/assets/app_icon/angularX144.png": "9264209363fc7ccb2c578f9279ba86b7d39cbbda",
+    "/assets/app_icon/angularX192.png": "b33ed3be02ee338cbc857ba835803b858cf47c10",
+    "/assets/app_icon/angularX36.png": "a4bff313656ae6d972ac9fbcd61cd52cf8c6f6a9",
+    "/assets/app_icon/angularX48.png": "a60a6058cc7c0a8fa706e86c2b0b81904c736871",
+    "/assets/app_icon/angularX512.png": "745fce22fa7af130f29746d255adac0121a50160",
+    "/assets/app_icon/angularX72.png": "df345f6fda09629f245b3aab8b07818920af7f35",
+    "/assets/app_icon/angularX96.png": "45cdc5b14afe3590c29c6bf1253c4977c93dea14"
+  }
+}
